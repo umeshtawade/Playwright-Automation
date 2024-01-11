@@ -40,9 +40,8 @@ test.afterEach('After Each Method', async ({ page }, testInfo) => {
     console.log(`Finished ${testInfo.title}`);
     console.log(`Status ${testInfo.status}`);
 
-    
-    //console.log(testInfo.title);
-    //console.log(testInfo.status);
+    console.log(testInfo.title);
+    console.log(testInfo.status);
 
 })   
 
