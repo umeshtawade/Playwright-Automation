@@ -9,7 +9,7 @@ test('Adactin Login Error message', async({page})=>      //page fixture
             //await page.locator('//*[@id="password"]').type('TestName790');
             //await page.locator('//*[@id="login"]').click();   
             
-            await page.locator('id=username').type('TestName790'); //tagname.attributeName=attributeValue
+            await page.locator('id=username').type('TestName790');          //tagname.attributeName=attributeValue
             await page.locator('id=password').fill('TestName7901');
             await page.locator('id=login').click();
 
